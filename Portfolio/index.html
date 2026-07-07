@@ -5,31 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="upper">
-        <!-- <h4>&lt;/&gt;NAUFILLA </h4> -->
-        <a>&lt;/&gt;NAUFILLA</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="blogs.html">Blogs</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="contacts.html">Contact</a>
-    </div>
-<div id="two">
-    <h2>Hello World! I'm</h2>
-    <h1>Naufilla Shaikh</h1>
-    <p>Crafting elegant solutions to complex problems with clean code
-        and innovative thinking. Welcome to my personal dev workspace where ideas come to life.
-    </p>
+    <header>
+        <nav>
+            <div class="left">
+                Naufilla's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="abc.webp" width="350" height="400" alt="Hey There!!">
+            </div>
 
-    <div>
-        <button class="Projects" type="submit">&lt;/&gt;View Projects</button>
-        <button class="Contact" type="button">🖂 Contact Me</button>
+            <div class="rightSection">
+                <h1>
+                    Hi there, I'm <h1 class="purple">Naufilla!</h1>
+                </h1>
+                <br><br><br>
+                <p>
+                    Hi there, I'm Olivia!
+                    I'm a passionate graphic designer with 5+ years of experience creating beautiful and functional
+                    designs. I specialize in branding, web design, and print media that tells your story and
+                    connects with your audience.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <div class="one">
+            <div class="two">B1</div>
+            <div class="three">B2</div>
+            <div class="four">B3</div>
+        </div>
+
+        <div class="five">
+            <div class="six">B4</div>
+            <div class="seven">B5</div>
+            <div class="eight">B6</div>
+        </div>
+    </main>
+
+    <div class="form">
+        <h1 class="get">Get in Touch</h1>
+        <br>
+        <p>Looking for a creative partner for your next project? I'm currently available for freelance work and would
+            love to hear about your ideas. Whether you need branding, web design, or print materials, let's collaborate
+            to bring your vision to life.</p><br><br>
+        <form action="">
+            <div class="name">
+                <label class="label1" for="name">Name</label>
+                <br>
+                <input id="name" type="text" id="name" placeholder="Enter Name">
+            </div>
+            <div class="email">
+            <label class="label2" for="email">Email</label>
+            <br>
+            <input id="email" type="email" id="email" placeholder="Enter Your Mail ID">
+        </div>
+        <div class="message">
+            <label class="label3" for="message">Message</label>
+            <br>
+            <input id="message" type="text" id="message" placeholder="Type Anything">
+        </div>
+        <br><br><br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
     </div>
-</div>
 </body>
 
 </html>

@@ -1,45 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    margin: 0px;
+    background-color: rgb(60, 60, 107);
+    color: white;
+    font-family: 'Poppins',sans-serif;
 }
-
-.upper {
+nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 60px;
-    background-color: rgb(105, 125, 180);
-    color: whitesmoke;
-    border-radius: 5px;
-    font-weight: bold;
+    height: 80px;
+    background-color: rgb(47, 47, 104);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 2rem;
 }
 
-body {
-    background-image: url(https://wallpaperaccess.com/full/4142199.jpg);
-        
-    }
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.rightSection{
+   display: inline;
+   padding: 30px;
+   border-radius: 10px;
+   
+    
+}
 
-    #two {
-        text-align: center;
-        color: white;
-    }
+.leftSection{
+    background: rgb(168, 168, 179);
+    padding: 20px;
+}
+img{
+    border-radius: 10px;
+    display: inline;
+}
 
-    p {
-        font-size: large;
-    }
+.purple{
+    color: rgb(195, 156, 231);
+    
+}
 
-    .Projects {
-        color: black;
-        border: 2px solid black;
-        background-color: rgb(28, 181, 30);
-        border-radius: 5px;
-        height: 50px;
-        width: 150px;
-    }
+.one{
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 600px;
+    width:100%;
+    justify-content: space-around;
+    border-radius: 10px;
+}
 
-    .Contact {
-        color: rgb(28, 181, 30);
-        border-radius: 5px;
-        border: 2px solid black;
-        height: 50px;
-        width: 150px;
-    }
+.two{
+    padding:200px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+.three{
+    padding:200px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+.four{
+    padding:200px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+
+.five{
+    display: flex;
+    /* background-color: rgb(125, 169, 154); */
+    height: 600px;
+    width:100%;
+    justify-content: space-around;
+    /* border-radius: 0px; */
+}
+
+.six{
+    padding:200px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+.seven{
+    padding:200px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+.eight{
+    padding:200px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.get{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form{
+    padding:100px;
+    text-align: center;
+}
+
+form{
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#name{
+    display:flex;
+    /*padding:4px; */
+    height: 50px;
+    width: 400px;
+    border-radius: 7px;
+}
+
+#email{
+    height: 50px;
+    display: flex;
+    width: 400px;
+    border-radius: 7px;
+}
+
+#message{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    border-radius: 7px;
+}
+.label1{
+    display: flex;
+    /* padding: 4px;
+    margin-bottom: 4px;*/
+} 
+
+.label2{
+    display: flex;
+}
+
+.label3{
+    display: flex;
+}
+
+button {
+  background-color: #2d425e; 
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7b7fab;
+}
