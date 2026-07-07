@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(105, 125, 180);
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/4142199.jpg);
+        
+    }
+
+    #two {
+        text-align: center;
+        color: white;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    .Projects {
+        color: black;
+        border: 2px solid black;
+        background-color: rgb(28, 181, 30);
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+    }
+
+    .Contact {
+        color: rgb(28, 181, 30);
+        border-radius: 5px;
+        border: 2px solid black;
+        height: 50px;
+        width: 150px;
+    }

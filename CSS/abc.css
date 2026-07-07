@@ -1,0 +1,29 @@
+h1{
+    color: cadetblue;
+}
+div{
+    height: 100px;
+    background-color: palevioletred;
+    width: 100px;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: brown;
+    /* border-radius: 35px; */
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 2px 3px 4px 5px;
+}
+/* span{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood; 
+} */
+
+p{
+    border-width: 4px;
+    border-style: dotted;
+    border-color: cadetblue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <form action="/submit.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+        <div>
+            <p>Radio Buttons</p>
+            <input type="radio" id="basic" name="subscription" value="basic">
+            <label for="basic">Basic</label>
+
+            <input type="radio" id="advenced" name="subscription" value="advanced">
+            <label for="advanced">Advanced</label>
+
+            <input type="radio" id="VIP" name="subscription" value="VIP">
+            <label for="VIP">VIP</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to terms and conditions</label>
+            <br>
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="Enter your comments" rows="5"></textarea>
+        </div>
+
+        <div>
+            <button>Submit</button>
+        </div>
+        
+    </form>
+</body>
+</html>
