@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    /* border: 2px solid black; */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /* position: absolute; */
+
+
+}
+
+.left {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.right {
+    margin-right: 25px;
+}
+
+.firstSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    /* margin: 23px 0; */
+    gap: 0;
+}
+
+.rightSection {
+    padding-left: 5px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 450px;
+    background: linear-gradient(135deg, #fff8dc, #ffe5b4);
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.rightSection p {
+    text-align: left;
+    padding-left: 10px;
+    /* margin-top: 230px; */
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+
+
+}
+
+.rightSection h1 {
+    padding-left: 10px;
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.leftSection {
+    margin-top: 20px;
+
+}
+
+img {
+    border-radius: 10px;
+    display: inline;
+}
+
+.purple {
+    color: rgb(204, 164, 95);
+
+}
+
+.one {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 10px;
+    gap: 0px;
+    /* padding: 15px; */
+    /* background-color: #7b7fab; */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0%;
+}
+
+.two,
+.three,
+.four,
+.six,
+.seven,
+.eight {
+    padding: 30px;
+    /* border: 2px solid black; */
+    /* margin: 40px; */
+    border-radius: 10px;
+    height: 350px;
+    background-color: rgb(236, 233, 233);
+    gap: 0;
+}
+
+
+.five {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    /* background-color: #e8d9f9; */
+    padding-top: 0%;
+
+}
+
+.same {
+    height: 250px;
+    width: fit-content;
+}
+
+.get {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+    padding: 100px;
+    text-align: center;
+    background: linear-gradient(135deg, #f5e9ff, #e8d9f9);
+    margin-right: 2%;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+
+form {
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#name {
+    display: flex;
+    height: 50px;
+    width: 400px;
+    border-radius: 7px;
+}
+
+#email {
+    height: 50px;
+    display: flex;
+    width: 400px;
+    border-radius: 7px;
+}
+
+#message {
+    display: flex;
+    height: 100px;
+    width: 400px;
+    border-radius: 7px;
+}
+
+.label1 {
+    display: flex;
+}
+
+.label2 {
+    display: flex;
+}
+
+.label3 {
+    display: flex;
+}
+
+button {
+    background-color: #8d75ec;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7b7fab;
+}
+
+h4 {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 400;
+    /* width: 4px; */
+}
+
+h6 {
+    font-size: 0.8rem;
+    /* line-height: 1.6; */
+    color: #333;
+    font-weight: lighter;
+}
+
+.font-semibold{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .rightSection {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 100%;
+        max-width: 400px;
+    }
+}
