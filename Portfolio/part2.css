@@ -48,10 +48,10 @@ nav ul li {
 
 .firstSection {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
     justify-content: center;
 
-    display: flex;
     justify-content: space-around;
     padding: 30px;
     /* margin: 23px 0; */
@@ -246,150 +246,144 @@ h6 {
     font-weight: bold;
 }
 
-@media (max-width: 992px) {
+/* main .boxes{
+    background-color: brown;
+    margin: 20px 0px 20px 0px;
+}
+
+main .box2{
+    background-color: chocolate;
+} */
+
+@media (max-width: 1024px) {
     body {
         padding: 0 40px;
     }
+
     .firstSection {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        justify-content: left;
+        align-items: left;
+        gap: 40px;
     }
+
     .leftSection img {
         width: 350px;
         height: auto;
     }
+
     .rightSection {
         width: 100%;
         height: auto;
         padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
     .rightSection h1 {
         margin-top: 0;
     }
-    .one,
-    .five {
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        gap: 20px;
+
+    .two{
+        padding-right: 0px;
     }
-    .two,
-    .three,
-    .four,
-    .six,
-    .seven,
-    .eight {
-        width: 320px;
+
+    .three{
+         padding-left: 0px;
     }
-    .form {
-        padding: 50px 30px;
+
+    .four{
+        padding-left: 0px;
+        /* padding-right: 0px; */
     }
+    .six{
+        padding-right: 0px;
+    }
+
+    .seven{
+         padding-left: 0px;
+    }
+
+    .eight{
+        padding-left: 0px;
+        /* padding-right: 0px; */
+    }
+    h4{
+        padding-left: 10px;
+    }
+    h6{
+        padding-left: 10px;
+    }
+    .form{
+        width:fit-content;
+    }
+    /* .box_text{
+        padding-left: 10px;
+    } */
 }
 
-
-@media (max-width:768px) {
+@media (max-width: 768px) {
     body {
         padding: 20px;
     }
+
     nav {
         flex-direction: column;
         gap: 15px;
         height: auto;
         padding: 20px 0;
     }
-    nav ul {
-        justify-content: center;
-        padding: 0;
+
+    .firstSection {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 30px;
     }
-    nav ul li {
-        margin: 0 12px;
-    }
-    .left {
-        font-size: 1.7rem;
-    }
+
     .leftSection img {
         width: 280px;
         height: auto;
     }
+
     .rightSection {
         width: 100%;
         padding: 30px 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
     .rightSection h1 {
         font-size: 1.5rem;
+        margin-top: 0;
     }
+
     .rightSection p {
-        font-size: 15px; 
-    }
-    .two,
-    .three,
-    .four,
-    .six,
-    .seven,
-    .eight {
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-        padding: 20px;
-    }
-    .same {
-        width: 100%;
-        height: auto;
-        margin-top: 20px;
-    }
-    .form {
-        padding: 30px 20px;
-    }
-    #name,
-    #email,
-    #message {
-        width: 100%;
-    }
-    button {
-        width: 100%;
-    }
-    footer {
-        text-align: center;
-        padding: 20px;
+        font-size: 15px;
     }
 }
 
-
-@media (max-width:480px) {
+@media (max-width: 480px) {
     body {
         padding: 15px;
     }
-    .left {
-        font-size: 1.5rem;
-    }
+
     .leftSection img {
-        width: 355px;
+        width: 100%;
+        height: auto;
     }
+
     .rightSection h1 {
         font-size: 1.3rem;
+        margin-top: 0;
     }
+
     .rightSection p {
         font-size: 14px;
         line-height: 1.5;
-    }
-    h4 {
-        font-size: 1.1rem;
-    }
-    h6 {
-        font-size: 0.75rem;
-    }
-    .form {
-        padding: 20px 15px;
-    }
-    #name,
-    #email {
-        height: 45px;
-    }
-    #message {
-        height: 90px;
-    }
-    button {
-        padding: 12px;
     }
 }
